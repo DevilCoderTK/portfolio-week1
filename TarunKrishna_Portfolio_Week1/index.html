@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Krishna | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1>Tarun Krishna G</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2 id="greeting"></h2>
+    <p>
+        I’m Tarun Krishna — a Computer Science & Design student who loves turning ideas into
+        real-world software solutions using AI, Machine Learning, and Full-Stack Development.
+    </p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science & Design Engineering student based in Bengaluru, driven by curiosity
+        and a passion for problem-solving. I enjoy building applications that are not only functional
+        but also meaningful to users.
+    </p>
+    <p>
+        Through hands-on projects in AI, Machine Learning, and Full-Stack Development, I have worked
+        on systems that improved accuracy by over 90% and reduced manual effort significantly.
+        My goal is to continuously learn, grow as a software engineer, and contribute to impactful
+        technology solutions.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills & Tools</h2>
+    <div class="skills-container">
+        <span>Python</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Machine Learning</span>
+        <span>OpenCV</span>
+        <span>MySQL</span>
+        <span>Git & GitHub</span>
+        <span>AWS</span>
+        <span>Salesforce</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Plant Disease Detection</h3>
+        <p>
+            This project uses machine learning and computer vision to detect plant diseases from leaf
+            images. The model achieved over 90% accuracy, helping identify crop infections at an
+            early stage.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h3>Smart Attendance System</h3>
+        <p>
+            A facial recognition-based attendance system built using Python and OpenCV that automates
+            attendance marking and reduces manual data entry errors by nearly 80%.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h3>Smart Dustbin (IoT)</h3>
+        <p>
+            An IoT-based automatic dustbin that uses ultrasonic sensors to improve hygiene and
+            demonstrate effective hardware-software integration.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p class="contact-note">
+        Feel free to reach out — I’m always open to learning, collaboration, and new opportunities.
+    </p>
+
+    <div class="contact-info">
+        <p>📍 Bengaluru, Karnataka</p>
+        <p>📞 9036833314</p>
+        <p>📧 tarunkrishna663@gmail.com</p>
+        <p>🔗 linkedin.com/in/tarun-krishnag</p>
+    </div>
+</section>
+
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<script src="script.js"></script>
+</body>
+</html>
